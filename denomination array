@@ -1,1 +1,17 @@
 
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+ int a[9]= {1000,500,200,100,50,20,10,5,1};
+ int b[9],c[8],d[8],e,f;
+ printf("enter the number :");
+ scanf("%d",&b[0]);
+ for(e=0;e<=8;e++)
+{
+ f=e+1;
+ c[e]=b[e]/a[e];
+ b[f]=b[e]-(c[e]*a[e]);
+ printf("\n%d",c[e]);
+}
+ return 0;
+}
