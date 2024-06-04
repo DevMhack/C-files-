@@ -1,0 +1,16 @@
+#include<iostream.h>
+#include<conio.h>
+main()
+{clrscr();char a;
+cout<<"vowel or consonant \n";
+cout<<"enter a letter";
+cin>>a;
+switch(a)
+{
+case 'a':case 'e':case 'i':case 'o':case 'u':
+case 'A':case 'E':case 'I':case 'O':case 'U':
+cout<<"The letter"<<a<<" is vowel";
+default:
+cout<<"The letter"<<a<<" is consonant";
+}
+getch();}
